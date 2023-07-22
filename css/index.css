@@ -2,5 +2,8 @@ p {
   color: grey;
 }
 .background {
-  color: #323453;
+  background-color: #2e2f42;
+}
+.text {
+  color: #fff;
 }
