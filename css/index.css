@@ -6,7 +6,19 @@ body {
   text-decoration: none;
   color: #434455;
 }
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
 .background {
+  background: #2e2f42;
+}
+.background-team {
+  background-color: #f4f4fd;
+}
+.background-footer {
   background: #2e2f42;
 }
 .none-dots {
@@ -18,43 +30,55 @@ body {
   font-size: 16;
   font-weight: 500;
 }
-.button-style {
-  background-color: #4d5ae5;
+.menu-style:hover {
+  color: #404bbf;
 }
 .button-color {
   color: var(--white, #fff);
-  font-size: 16px;
+  background-color: #4d5ae5;
+  font-size: 1;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1, 5;
+  letter-spacing: 0, 04;
 }
 .menu-button {
   cursor: pointer;
+  color: #e7e9fc;
 }
-.menu-button .button {
+.button-color:hover {
+  background-color: #404bbf;
+}
+.menu-button .button-style {
   cursor: pointer;
+
   background-color: #e7e9fc;
 }
-.menu-button .button:hover {
+.menu-button .button-style:hover {
   color: #e7e9fc;
   background-color: #4d5ae5;
 }
+
+.menu-button .button-style:focus {
+  color: #e7e9fc;
+  background-color: #4d5ae5;
+}
+
 .btm-text-color {
   color: var(--iris, #4d5ae5);
   text-align: center;
-  font-size: 16px;
+  font-size: 1;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1, 5;
+  letter-spacing: 0, 04;
 }
 
 .header-text {
   color: var(--white, #fff);
   text-align: center;
-  font-size: 56px;
+  font-size: 3, 5;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 3, 75;
+  letter-spacing: 0, 07;
 }
 .web-color {
   color: var(--iris, #4d5ae5);
@@ -75,31 +99,33 @@ body {
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
-  font-size: 16px;
+  font-family: Roboto;
+  font-size: 1;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
 .h-text {
   color: var(--navyblue, #2e2f42);
-  font-size: 20px;
+  font-size: 1, 25;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1, 5;
+  letter-spacing: 0.025;
 }
 .text {
   color: var(--slate, #434455);
-  font-size: 16px;
+  font-size: 1;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1, 5;
+  letter-spacing: 0.02;
 }
 .chapter-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25;
+  font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 2.5;
+  letter-spacing: 0.045;
   text-transform: capitalize;
 }
