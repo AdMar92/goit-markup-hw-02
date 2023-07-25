@@ -16,7 +16,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: var(--color-hero-background);
 }
 .logo-link {
   color: var(--navyblue, #2e2f42);
@@ -39,7 +39,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -114,7 +114,7 @@ body {
 }
 
 .header-text {
-  color: var(--white, #fff);
+  color: var(--color-white-background);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -172,7 +172,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 1.16;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
