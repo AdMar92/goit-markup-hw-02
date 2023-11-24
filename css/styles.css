@@ -57,8 +57,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.menu-link:focus,
-.menu-link:hover {
+.menu-item:focus,
+.menu-item:hover {
   color: var(--OCEAN, #404bbf);
 }
 
@@ -148,9 +148,7 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.btn-items > li {
-  list-style: none;
-}
+
 .button-style {
   color: var(--IRIS);
   background-color: var(--CLOUD);
