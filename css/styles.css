@@ -166,7 +166,7 @@ body {
 .button-style:hover,
 .button-style:focus {
   background: var(--OCEAN, #404bbf);
-  color: var(--CLOUD);
+  color: var(--WHITE);
 }
 
 .section-four {
