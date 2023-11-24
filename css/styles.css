@@ -30,7 +30,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .header-logo {
   color: var(--NAVY-BLUE);
@@ -68,18 +67,17 @@ body {
   font-style: normal;
 }
 
-.address-link {
+.address-item {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  text-decoration: none;
 }
 
-.address-link:focus,
-.address-link:hover {
+.address-item:focus,
+.address-item:hover {
   color: var(--OCEAN, #404bbf);
 }
 .section-background {
@@ -117,6 +115,7 @@ body {
   background: var(--IRIS, #4d5ae5);
   color: var(--WHITE, #fff);
   /* Button Text */
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -137,9 +136,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-}
-.none-decoration {
-  list-style: none;
 }
 
 .header-section {
@@ -172,13 +168,21 @@ body {
 .button-style:focus {
   background: var(--OCEAN, #404bbf);
 }
+
+.section-four {
+  background-color: var(--CLOUD);
+}
+.background-list {
+  background-color: var(--WHITE);
+}
+
 .footer-logo {
   color: var(--CLOUD);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
 }
 .footer-background {
