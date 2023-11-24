@@ -99,7 +99,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .small-text {
   color: var(--SLATE, #434455);
@@ -152,10 +152,11 @@ body {
   list-style: none;
 }
 .button-style {
-  color: var(--WHITE, #fff);
-  background: var(--IRIS);
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
   text-align: center;
   /* Button Text */
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -163,9 +164,11 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
+
 .button-style:hover,
 .button-style:focus {
   background: var(--OCEAN, #404bbf);
+  color: var(--CLOUD);
 }
 
 .section-four {
