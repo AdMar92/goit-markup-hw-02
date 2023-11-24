@@ -48,14 +48,13 @@ body {
   list-style: none;
 }
 
-.menu-link {
+.menu-item {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .menu-link:focus,
