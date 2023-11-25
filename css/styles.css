@@ -16,16 +16,15 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: var(--font-primary);
+  color: var(--SLATE);
+  background-color: var(--WHITE);
 }
 
 .logo {
   color: var(--IRIS);
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-secondary);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -33,12 +32,6 @@ body {
 }
 .header-logo {
   color: var(--NAVY-BLUE);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
 }
 
 .link {
@@ -49,9 +42,8 @@ body {
 }
 
 .menu-item {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -59,7 +51,7 @@ body {
 
 .menu-item:focus,
 .menu-item:hover {
-  color: var(--OCEAN, #404bbf);
+  color: var(--OCEAN);
 }
 
 .address-style {
@@ -67,9 +59,8 @@ body {
 }
 
 .address-item {
-  color: var(--SLATE, #434455);
+  color: var(--SLATE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -77,46 +68,42 @@ body {
 
 .address-item:focus,
 .address-item:hover {
-  color: var(--OCEAN, #404bbf);
+  color: var(--OCEAN);
 }
 .section-background {
-  background-color: var(--NAVY-BLUE, #2e2f42);
+  background-color: var(--NAVY-BLUE);
 }
 
 .title-style {
-  color: var(--WHITE, #fff);
+  color: var(--WHITE);
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .header-small-text {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .small-text {
-  color: var(--SLATE, #434455);
+  color: var(--SLATE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .btn-color {
-  background: var(--IRIS, #4d5ae5);
-  color: var(--WHITE, #fff);
+  background: var(--IRIS);
+  color: var(--WHITE);
   /* Button Text */
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-primary);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -125,24 +112,22 @@ body {
 
 .btn-color:hover,
 .btn-color:focus {
-  background: var(--OCEAN, #404bbf);
+  background: var(--OCEAN);
 }
 
 .btn-text {
-  color: var(--WHITE, #fff);
+  color: var(--WHITE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
 
 .header-section {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   text-align: center;
   /* text style */
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -154,9 +139,8 @@ body {
   background-color: var(--CLOUD);
   text-align: center;
   /* Button Text */
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-primary);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -165,7 +149,7 @@ body {
 
 .button-style:hover,
 .button-style:focus {
-  background: var(--OCEAN, #404bbf);
+  background: var(--OCEAN);
   color: var(--WHITE);
 }
 
@@ -178,12 +162,6 @@ body {
 
 .footer-logo {
   color: var(--CLOUD);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
 }
 .footer-background {
   background: var(--GREY);
@@ -192,7 +170,6 @@ body {
 .footer-text {
   color: var(--CLOUD);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
